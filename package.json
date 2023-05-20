@@ -1,0 +1,26 @@
+{
+  "name": "testando-npm",
+  "version": "1.0.0",
+  "description": "aprendendo a usar o npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc index.ts --outdir dist/",
+    "app": "node dist/index.js",
+    "buildAndApp":"tsc index.ts --outdir dist/ && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erickmarlon006/Testando-npm.git"
+  },
+  "author": "Erick Marlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erickmarlon006/Testando-npm/issues"
+  },
+  "homepage": "https://github.com/Erickmarlon006/Testando-npm#readme",
+  "dependencies": {
+    "html-pdf": "^3.0.1",
+    "readline-sync": "^1.4.10"
+  }
+}
